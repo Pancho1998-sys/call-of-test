@@ -1,0 +1,16 @@
+{
+  "name": "call-of-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio de POO para un combate con tests unitarios",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
